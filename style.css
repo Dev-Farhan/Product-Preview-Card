@@ -14,7 +14,6 @@ body {
 .container {
   max-width: 37rem;
   max-height: 28rem;
-  border: 1px solid red;
   border-radius: 10px;
   display: flex;
 }
@@ -28,7 +27,8 @@ body {
 .card-content {
   padding: 2rem 2.6rem;
   background: #fff;
-  border-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
 }
 
 .card-content h6 {
