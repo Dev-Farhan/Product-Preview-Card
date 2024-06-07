@@ -31,8 +31,8 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/Dev-Farhan/Product-Preview-Card)
-- Live Site URL: [Add live site URL here](https://product-preview-card-zeta-drab.vercel.app/)
+- Solution URL: [Solution](https://github.com/Dev-Farhan/Product-Preview-Card)
+- Live Site URL: [Live](https://product-preview-card-zeta-drab.vercel.app/)
 
 ## My process
 
@@ -60,8 +60,6 @@ In future projects, I aim to further refine my CSS skills and explore advanced C
 ## Author
 
 - Frontend Mentor - @Dev-Farhan
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
 
 ## Acknowledgments
 
