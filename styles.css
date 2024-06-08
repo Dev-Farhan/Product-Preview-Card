@@ -1,0 +1,129 @@
+/* Modern CSS Reset */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.5;
+  -webkit-text-size-adjust: 100%;
+  -moz-tab-size: 4;
+  tab-size: 4;
+}
+
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  background-color: hsl(30, 38%, 92%);
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  background-color: #ffffff;
+  overflow: hidden;
+  max-width: 37rem;
+  margin: 0 2rem;
+}
+
+.image-box img {
+  width: 100%;
+}
+
+.card-content {
+  padding: 2rem;
+  background: #fff;
+}
+
+.card-content h2 {
+  color: hsl(0, 0%, 50%);
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 0.7rem;
+  letter-spacing: 0.2rem;
+}
+
+.card-content h3 {
+  font-family: "Fraunces", sans-serif;
+  font-weight: 800;
+  font-size: 1.8rem;
+  line-height: 2rem;
+  padding: 1rem 0;
+  margin-right: 0.9rem;
+}
+
+#shortPara {
+  font-size: 0.8rem;
+  line-height: 1.5;
+  font-weight: 500;
+  margin-right: 0.9rem;
+  color: hsl(0, 0%, 50%);
+  padding-bottom: 1rem;
+}
+
+.pricing {
+  display: flex;
+  align-items: center;
+  padding-bottom: 1.5rem;
+}
+
+.price {
+  font-family: "Fraunces", sans-serif;
+  font-size: 30px;
+  font-weight: 800;
+  color: hsl(158, 36%, 37%);
+}
+
+.price-deleted {
+  padding-left: 1rem;
+  text-decoration: line-through;
+  font-size: 0.8rem;
+  color: hsl(0, 0%, 50%);
+}
+
+button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Montserrat", sans-serif;
+  padding: 1rem;
+  width: 100%;
+  border: none;
+  border-radius: 0.5rem;
+  color: #fff;
+  background-color: hsl(158, 36%, 37%);
+  cursor: pointer;
+}
+
+button span {
+  padding-left: 1rem;
+  font-weight: 600;
+}
+
+@media (min-width: 800px) {
+  .card {
+    flex-direction: row;
+  }
+
+  .image-box {
+    width: 50%;
+  }
+
+  .card-content {
+    width: 50%;
+    padding: 2rem;
+  }
+}
